@@ -40,9 +40,10 @@ Usage - MUST BE POSITIVE INTEGERS
 
  When the app is running it is accessible on the applicationConnectors port in the format:
 
-    http://localhost:9000/IsPrime?start=21474837 Single value validation
-    http://localhost:9000/ArePrime?rangestart=1&rangeend=101 Min-max values validation 
-    http://localhost:9000/PrimeThread?rangestart=1&rangeend=101
+    http://localhost:9000/TrialDivision?integerToCheck=21474837 Single value validation
+    http://localhost:9000/Sieve?integerToCheck=101 Min-max values validation 
+    http://localhost:9000/PrimesFork?integerToCheck=1001
+    http://localhost:9000/PrimesCount?start=1&finish=1001
     Response if of this format
     {"id":1,"isPrime":true,"primeCount":1}
     
