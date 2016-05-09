@@ -84,10 +84,10 @@ public class ForkJoinPoolTest extends TestCase{
 		assertTrue(!sieveOfEratosthenes.runEratosthenesSieve(10001));
 	}
 		
-	public void testIntegerMaxHalf() throws Exception {
-		SieveofEratosthenes sieveOfEratosthenes = new SieveofEratosthenes();		
-		assertFalse(sieveOfEratosthenes.runEratosthenesSieve(Integer.MAX_VALUE/2));
-	}
+	//public void testIntegerMaxHalf() throws Exception {
+	//	SieveofEratosthenes sieveOfEratosthenes = new SieveofEratosthenes();		
+	//	assertFalse(sieveOfEratosthenes.runEratosthenesSieve(Integer.MAX_VALUE/2));
+	//}
 			
 	public void testIntegerMax() throws Exception {
 		SieveofEratosthenes sieveOfEratosthenes = new SieveofEratosthenes();		
