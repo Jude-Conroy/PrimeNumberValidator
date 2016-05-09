@@ -1,18 +1,13 @@
 # PrimeNumberValidator
 
 
-  This is a dropwizard implementation to demonstrate two forms of input, single value and range (min, max). The demonstration is using java 8 and a number of techniques:
+  This is a dropwizard implementation to demonstrate two forms of input, single value and range (min, max). The demonstration is using java 8 and dropwizard:
 
-    ForkJoinPool,
-    IntStream,
-    ExecutorService,
-    Callables,
-    and just raw number crunching!
-
+  
 Maintainer
 ------------
 
-  [Jude Conroy](https://github.com/Jude-Conroy)
+    [Jude Conroy](https://github.com/Jude-Conroy)
 
 
 Introduction
@@ -20,7 +15,7 @@ Introduction
 
   The implementation uses dropwizards fat jar creation which contains all the dependencies it needs to run.
   
-  [WIKI](https://github.com/Jude-Conroy/PrimeNumberValidator/wiki)
+     [WIKI](https://github.com/Jude-Conroy/PrimeNumberValidator/wiki)
 
 
 Installation
