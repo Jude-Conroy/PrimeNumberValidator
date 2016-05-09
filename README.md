@@ -35,10 +35,10 @@ Usage - MUST BE POSITIVE INTEGERS
 
  When the app is running it is accessible on the applicationConnectors port in the format:
 
-    http://localhost:9000/TrialDivision?integerToCheck=21474837 Single value validation
-    http://localhost:9000/Sieve?integerToCheck=101 Min-max values validation 
-    http://localhost:9000/PrimesFork?integerToCheck=1001
-    http://localhost:9000/PrimesCount?start=1&finish=1001
+    http://localhost:9000/TrialDivision?integerToCheck=21474837 Trial division algo
+    http://localhost:9000/Sieve?integerToCheck=101  sieve of Eratosthenes
+    http://localhost:9000/PrimesFork?integerToCheck=1001 Java 8 Streams
+    http://localhost:9000/PrimesCount?start=1&finish=1001 Java 8 Stream, Count how many primes in range
     Response if of this format
     {"id":1,"isPrime":true,"primeCount":1}
     
