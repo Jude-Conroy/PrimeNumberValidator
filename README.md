@@ -7,7 +7,7 @@
 Maintainer
 ------------
 
-    [Jude Conroy](https://github.com/Jude-Conroy)
+  [Jude Conroy](https://github.com/Jude-Conroy)
 
 
 Introduction
@@ -15,7 +15,7 @@ Introduction
 
   The implementation uses dropwizards fat jar creation which contains all the dependencies it needs to run.
   
-     [WIKI](https://github.com/Jude-Conroy/PrimeNumberValidator/wiki)
+  [WIKI](https://github.com/Jude-Conroy/PrimeNumberValidator/wiki)
 
 
 Installation
