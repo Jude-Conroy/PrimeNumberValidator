@@ -17,12 +17,6 @@ public class SieveOptomised
         if(number == 2 || number == 3 || number == 5)
         	return true;
         
-        /*
-         * If a number n is not a prime, it can be factored into two factors a and b: n = a*b
-         * If both a and b were greater than the square root of n, a*b would be greater than n. 
-         * So at least one of those factors must be less or equal to the square root of n, and 
-         * to check if n is prime, we only need to test for factors less than or equal to the square root.
-         */	 
         int step = 4;
         for(int i = 7; i <= Math.sqrt(number); i=i+(step=step==4?2:4)){        	
         	if (number % i == 0) 
